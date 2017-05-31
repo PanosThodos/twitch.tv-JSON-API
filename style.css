@@ -1,0 +1,52 @@
+body{
+  background:url('http://www.guoguiyan.com/data/out/203/69451676-twitch-wallpapers.png');
+  color:white;
+  font-family: "Lobster";
+}
+#header {
+  background:rgba(255, 255, 255, 0.08);
+  padding:0.5%;
+  margin:1%;
+  border:6px outset white;
+  border-radius:45px 5px 45px 5px;
+}
+footer {
+  font-weight:bold;
+  text-align:center;
+  background:rgba(192, 192, 192, 0.46);
+  border-radius:45% 45% 0% 0%;
+  margin-top:1%;
+  padding:1%
+}
+img{
+  width:100px;
+  border-radius:45px 5px 45px 5px;
+}
+footer a{
+  color:black;
+}
+footer a:hover{
+  color:#212121;
+}
+.col-md-4{
+  padding:1%;
+}
+.row{
+  background:rgba(255, 255, 255, 0.08);
+  border:3px outset white;
+  border-radius:45px 5px 45px 5px;
+  margin:1.5%;
+}
+.row a:hover{
+  opacity:0.5;
+}
+.offline{
+  border:2px solid white;
+}
+
+.online{
+  border:2px solid green;
+}
+.deleted{
+  border:2px solid red;
+}
